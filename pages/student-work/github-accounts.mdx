@@ -1,15 +1,20 @@
 export function AccountLinks() {
     const  accountCSV = process.env.NEXT_PUBLIC_STUDENT_GITHUB_USERNAMES;
 
-    const accounts = accountCSV.split(',');
+    // Check if the environment variable is defined, otherwise use empty string
+    const accounts = accountCSV ? accountCSV.split(',') : [];
 
     return (
     <div>
-      {accounts.map((account) => (
-        <span>{" "}
-          <a href={`https://github.com/${account}`}>{account}</a> |
-        </span>
-      ))}
+      {accounts.length > 0 ? (
+        accounts.map((account, index) => (
+          <span key={index}>{" "}
+            <a href={`https://github.com/${account}`}>{account}</a> |
+          </span>
+        ))
+      ) : (
+        <p>No GitHub accounts configured. Please set the NEXT_PUBLIC_STUDENT_GITHUB_USERNAMES environment variable.</p>
+      )}
     </div>
     )
 
