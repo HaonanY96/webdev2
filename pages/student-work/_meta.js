@@ -1,4 +1,4 @@
-{
+export default {
   "github-accounts": "GitHub Accounts",
   "showcase": "Project Showcase"
-}
+} 

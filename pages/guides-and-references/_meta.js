@@ -1,4 +1,4 @@
-{
+export default {
   "course-info": "Course Information",
   "development-environment-setup": "Guide: Setting Up Your Development Environment",
   "clone-project": "Guide: Cloning a Next.js Project Repository",
@@ -6,4 +6,4 @@
   "workflow": "Guide: Coding Workflow",
   "deploying-nextjs-app": "Guide: Deploying a Next.js App",
   "references": "Reference Documentation"
-}
+} 

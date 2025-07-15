@@ -1,5 +1,5 @@
-{
+export default {
   "api-implementation": "API implementation",
   "project": "Project Phase 2: Project Setup",
   "slides": { "display": "hidden" }
-}
+} 

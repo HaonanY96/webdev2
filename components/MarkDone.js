@@ -4,6 +4,8 @@
 // Pages marked as "done" will have a checkmark next to them in the sidebar.
 //
 
+"use client";
+
 import React, { useState, useEffect } from "react";
 import styles from "./MarkDone.module.css";
 

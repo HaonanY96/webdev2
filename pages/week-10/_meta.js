@@ -1,5 +1,5 @@
-{
+export default {
   "firestore": "Cloud Firestore",
   "assignment": "Week 10 Assignment",
   "slides": { "display": "hidden" }
-}
+} 

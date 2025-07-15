@@ -1,0 +1,32 @@
+/* 主 CSS 文件 - Tailwind 基础样式和自定义样式 */
+
+/* 1. Tailwind 基础指令 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. 自定义样式 */
+/* Custom base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+/* Component overrides */
+@layer components {
+  .nextra-nav-container {
+    @apply border-b border-gray-200 dark:border-gray-800;
+  }
+}
+
+/* Utility overrides */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} 

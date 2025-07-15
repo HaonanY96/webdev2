@@ -1,7 +1,7 @@
-{
+export default {
   "index": "Home",
   "guides-and-references": "Guides and References",
-  "student-work": "Student Work",
+  "student-work": "Student Work", 
   "week-1": "Week 1: Introduction to Web Application Development",
   "week-2": "Week 2: Introduction to React",
   "week-3": "Week 3: Components and Props",
@@ -17,5 +17,5 @@
   "week-13": "Week 13: API Database Integration",
   "week-14": "Week 14: Project Submission",
   "week-15": "Week 15: Project Showcase",
-  "instructor-announcements": { "display": "hidden" }
-}
+  "_instructor-materials": { "display": "hidden" }
+} 

@@ -1,5 +1,5 @@
-{
+export default {
   "firebase-auth": "Firebase Authentication",
   "assignment": "Week 9 Assignment",
   "slides": { "display": "hidden" }
-}
+} 

@@ -1,6 +1,6 @@
-{
+export default {
   "react": "Introduction to React",
-  "react-demo": { "display": "hidden" },
+  //"activity.js": { "display": "hidden" },
   "assignment": "Week 2 Assignment",
   "slides": { "display": "hidden" }
-}
+} 

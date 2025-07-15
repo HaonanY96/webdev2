@@ -1,5 +1,5 @@
-{
+export default {
   "api-database-integration": "API Database Integration",
   "project": "Project Phase 2: Build Features",
   "slides": { "display": "hidden" }
-}
+} 
